@@ -1,6 +1,6 @@
 package main
 import "fmt"
 func main(){
-	s:="hello world"
+	s:="world"
 	fmt.Printf(s)
 }
