@@ -1,7 +1,11 @@
 package main
-import "fmt"
+import (
+	"fmt"
+	"runtime"
+)
 func main(){
 	s:="world"
 	fmt.Printf(s+"\n")
-	fmt.Printf("%T",s)
+	fmt.Printf("%T\n",s)
+	fmt.Printf("%d",runtime.NumCPU())
 }
